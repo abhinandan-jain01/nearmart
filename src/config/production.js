@@ -6,6 +6,7 @@ export default {
         allowedHeaders: ['Content-Type', 'Authorization'],
         credentials: true
     },
+
     
     // Rate limiting
     rateLimit: {
