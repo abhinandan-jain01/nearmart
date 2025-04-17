@@ -11,7 +11,7 @@ import swaggerSpecs from './config/swagger.js';
 import { responseMiddleware } from './utils/response.js';
 import { initializeSocket } from './config/socket.js';
 import mongoose from 'mongoose';
-
+const arr=[];
 // Import routes
 import customerRoutes from './routes/customer.routes.js';
 import retailerRoutes from './routes/retailer.routes.js';
